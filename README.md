@@ -24,6 +24,10 @@ __***Note***__:
 1. \<adr> is a 4-bit word with no prefix (either in hexidecimal or binary).
 2. Use '; \<comment>'.
 
+__***Specs***__:
+- 16 bytes of memory
+- 1 loadable register 
+- Decimal output
 
 ***Usage***
 ---
