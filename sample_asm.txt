@@ -1,0 +1,12 @@
+;Code
+;This code does 10 + 10 - (-5) and prints it out.
+LDA 0x9
+ADD 0xa
+SUB 0xb
+OUT
+HLT
+
+;Data
+SET 0x9 0x0a ;Set Address 0x9 to value 10
+SET 0xa 0x0a ;Set Address 0xa to value 10
+SET 0xb 0xfb ;Set Address 0xb to value -5
